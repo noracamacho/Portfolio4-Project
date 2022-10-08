@@ -476,6 +476,10 @@ label>img{
     line-height: 1.2;
     text-align: center;
 }
+.card-contact-phone,
+.card-contact-mail {
+    text-decoration: none;
+}
 
 .card-contact:hover{
     transform: scale(1.3);
