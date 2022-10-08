@@ -447,6 +447,9 @@ label>img{
     transform: translateY(-1.5rem) scale(1.1);
 } */
 
+.section-contact{
+    margin-bottom: 4rem;
+}
 .section-contact h2{
     margin-bottom: 6rem;
 }
