@@ -563,7 +563,7 @@ label>img{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 75%;
-    height: 20rem;
+    height: auto;
     background-color: transparent;
     box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
     border-radius: 5px;
@@ -593,10 +593,10 @@ label>img{
   
 .popup__close:link, .popup__close:visited {
     color: white;
-    position: absolute;
-    top: -4%;
+    position: fixed;
+    top: -3.5%;
     right: 20%;
-    font-size: 5rem;
+    font-size: 3rem;
     text-decoration: none;
     display: inline-block;
     transition: all 0.2s;
@@ -608,6 +608,8 @@ label>img{
 .popup__close:hover {
     color: var(--color-tertiary-blue);
 }
+
+
 
 /* Media queries */
 @media screen and (min-width: 600px ) {
@@ -676,6 +678,11 @@ label>img{
     .portfolio-card-container {
         margin: 0 6rem;
     }
+
+    .popup__close:link, .popup__close:visited {
+        top: -3.5%;
+        right: 21%;
+    }
 }
 
 @media screen and (min-width: 862px) {
@@ -700,7 +707,23 @@ label>img{
         font-size: 1.2rem;
         padding-top: 3rem;
     }
+    .popup__close:link, .popup__close:visited {
+        font-size: 3rem;
+        top: -3.5%;
+        right: 22%;
+    }
 }
+
+@media screen and ( min-width: 1200px ){
+
+    .popup__close:link, .popup__close:visited {
+        font-size: 3.5rem;
+        top: -2.5%;
+        /* right: 22%; */
+    }
+}
+
+
 
 @media screen and ( min-width: 1450px ){
     .subtitle {
@@ -945,6 +968,12 @@ label>img{
     }
     .card-contact-body p {
         font-size: 1.3rem;
+    }
+
+    .popup__close:link, .popup__close:visited {
+        font-size: 4rem;
+        top: -2%;
+        right: 22%;
     }
 }
 
