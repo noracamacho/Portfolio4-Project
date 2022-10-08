@@ -193,6 +193,11 @@ label>img{
     line-height: 80px;
 } 
 
+.circletag-social-media-icon:hover {
+    background-color: var(--color-tertiary-blue);
+    transform: translateY(-.2rem) scale(1.1);
+}
+
 .circletag-social-media-icon > .icon {
     color: transparent;
     width: 1.3rem;
@@ -824,8 +829,7 @@ label>img{
     }
 
     .circletag-social-media-icon:hover {
-        background-color: var(--color-tertiary-blue);
-        transform: translateY(-.5rem) scale(1.0);
+        transform: translateY(-.3rem) scale(1.1);
     }
 
     .icon{
