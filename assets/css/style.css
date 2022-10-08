@@ -579,7 +579,7 @@ label>img{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 75%;
+    width: 80%;
     height: auto;
     background-color: transparent;
     box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
@@ -593,7 +593,7 @@ label>img{
 
 .popup__img {
     display: block;
-    width: 60%;
+    width: 75%;
     left: 15%;
     top: 15%;
 }
@@ -611,8 +611,8 @@ label>img{
 .popup__close:link, .popup__close:visited {
     color: white;
     position: fixed;
-    top: -3.5%;
-    right: 20%;
+    top: -4.5%;
+    right: 0;
     font-size: 3rem;
     text-decoration: none;
     display: inline-block;
@@ -696,10 +696,14 @@ label>img{
         margin: 0 6rem;
     }
 
+    
+}
+
+@media screen and (min-width: 805px) {
     .popup__close:link, .popup__close:visited {
-        top: -3.5%;
-        right: 21%;
+        top: -3%;
     }
+    
 }
 
 @media screen and (min-width: 862px) {
@@ -724,19 +728,17 @@ label>img{
         font-size: 1.2rem;
         padding-top: 3rem;
     }
-    .popup__close:link, .popup__close:visited {
+    /* .popup__close:link, .popup__close:visited {
         font-size: 3rem;
         top: -3.5%;
         right: 22%;
-    }
+    } */
 }
 
 @media screen and ( min-width: 1200px ){
 
     .popup__close:link, .popup__close:visited {
-        font-size: 3.5rem;
         top: -2.5%;
-        /* right: 22%; */
     }
 }
 
@@ -987,13 +989,11 @@ label>img{
     }
 
     .popup__close:link, .popup__close:visited {
-        font-size: 4rem;
         top: -2%;
-        right: 22%;
     }
 }
 
-@media screen and (max-width: 510px ) {
+@media screen and (max-width: 521px ) {
     .portfolio-card-container {
         margin: 0;
     }
