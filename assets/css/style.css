@@ -316,7 +316,7 @@ label>img{
     background-color: white;
     text-align: center;
     margin: .8rem 1rem 2rem 1rem;
-    background-image: url(/images/Vectores/Ellipse\ 14.svg);
+    background-image: url(/assets/images/Vectores/Ellipse\ 14.svg);
     background-repeat: no-repeat;
     background-size: contain;
     align-self: center;
@@ -464,7 +464,7 @@ label>img{
     border-radius: 5px;
     text-align: center;
     margin: 2rem 1rem;
-    background: url(/images/Vectores/Ellipse\ 14.svg), white ;
+    background: url(/assets/images/Vectores/Ellipse\ 14.svg), white ;
     background-repeat: no-repeat;
     background-size: 110%;
     background-position: center -50%;
