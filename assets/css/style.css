@@ -43,7 +43,14 @@ img{
     padding: 0.5rem 1rem;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
+    right: 0;
     height: 80px;
+    padding-bottom: 3rem;
+    position: fixed;
+    z-index: 2;
+    background-color: var(--color-primary-blue);
+    box-shadow: 1px 1px 3px rgb(5, 17, 41);
 }
 
 label>img{
@@ -102,7 +109,9 @@ label>img{
 
 /* - Mobile: 375px
 - Desktop: 1440px */
-
+.circletag-container {
+    padding-top: 3.5rem;
+}
 .circletag {
     width: 255px;
     height: 255px;
@@ -263,6 +272,11 @@ label>img{
 
 .section-about {
     position: relative;
+    padding-top: 7rem;
+}
+
+.section-about h2{
+    margin-bottom: 7rem;
 }
 
 .subtitle {
@@ -285,6 +299,7 @@ label>img{
 .section-service {
     position: relative;
     margin: 0 auto; 
+    padding-top: 6rem;
 }
 
 .scrolling-window {
@@ -361,10 +376,12 @@ label>img{
     position: relative;
     margin: 1rem auto 5rem auto;
     max-width: 1200px;
+    padding-top: 7rem;
+
 }
 
 .section-abilities h2 {
-    margin-bottom: 1.8rem;
+    margin-bottom: 5rem;
 }
 
 .ability-bar {
@@ -675,7 +692,9 @@ label>img{
     }
 
     .section-portfolio {
-        margin-bottom: 6rem;
+        margin-bottom: 10rem;
+        padding-top: 7rem;
+
     }
 
     .contact-card-container {
@@ -1020,7 +1039,8 @@ label>img{
         margin-bottom: 4rem;
     }
     .section-portfolio h2 {
-        margin-bottom: 2rem;
+        margin-bottom: 4rem !important;
+        /* padding-bottom: 5rem; */
     }
 
     .popup {
