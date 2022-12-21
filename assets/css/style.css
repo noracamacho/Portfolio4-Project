@@ -473,7 +473,7 @@ label>img{
     margin-bottom: 4rem;
 }
 .section-contact h2{
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
 }
 
 /* .section-contact h2{
@@ -769,8 +769,8 @@ label>img{
     }
 
     .circletag {
-        width: 670px;
-        height: 670px;
+        width: 600px;
+        height: 600px;
         display: block;
         top: .5rem;
         transform: translate(0, 20);
@@ -863,23 +863,23 @@ label>img{
     }
     
     .logo-box-container {
-        height: 16rem;
+        height: 10.5rem;
         width: 58.5rem;
     }
 
     .logo-box{
-        width: 14.5rem;
-        height: 9.5rem;
+        width: 8.5rem;
+        height: 8.5rem;
     }
     
     .google img{
-        width: 7.5rem;
+        width: 5.5rem;
     }
     .amazon img{
-        width: 8.5rem;
+        width: 6.5rem;
     }
     .spotify img {
-        width: 6.6rem;
+        width: 4.6rem;
     }
 
     .section-about p {
